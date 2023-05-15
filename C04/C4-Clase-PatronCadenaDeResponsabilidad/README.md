@@ -1,10 +1,10 @@
 
 # Patrón cadena de responsabilidad
 
-### Objetivo 
+## Objetivo 
 Realizar el diagrama UML y programar en Java implementando patrón cadena de responsabilidad según el siguiente enunciado.
 
-### Enunciado 
+## Enunciado 
 En la empresa llamada **Colmena** hay tres departamentos: gerencia, comercial y técnico. Cuando reciben un correo electrónico (en su dominio **colmena.com**) quieren que se controle de acuerdo con las reglas de inteligencia artificial de la empresa y enviarlo al departamento que corresponda. Nosotros vamos a **simular** este control suponiendo que:
 
 
