@@ -1,0 +1,12 @@
+[2023-05-21 16:14:17] [ ERROR] [Cliente:30] Error al agregar empleado: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.EMPLEADO(ID) ( /* key:1 */ 1, 'Juan', U&'P\\00e9rez', 25, TRUE)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLEADO(ID) ( /* key:1 */ 1, 'Juan', U&'P\\00e9rez', 25, TRUE)"; SQL statement:
+INSERT INTO empleado (Id, Nombre, Apellido, Edad, esSoltero) VALUES (1, 'Juan', 'Pérez', 25, true), (2, 'María', 'Gómez', 30, false), (1, 'Pedro', 'López', 28, true) [23505-214]
+[2023-05-21 16:14:17] [ DEBUG] [Cliente:45] Informacion actualizada para el empleado con ID 2
+[2023-05-21 16:14:17] [ INFO ] [Cliente:58] Empleado eliminado con ID 1
+[2023-05-21 16:14:17] [ INFO ] [Cliente:71] Empleado eliminado por edad
+[2023-05-21 16:14:39] [ ERROR] [Cliente:30] Error al agregar empleado: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.EMPLEADO(ID) ( /* key:1 */ 1, 'Juan', U&'P\\00e9rez', 25, TRUE)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLEADO(ID) ( /* key:1 */ 1, 'Juan', U&'P\\00e9rez', 25, TRUE)"; SQL statement:
+INSERT INTO empleado (Id, Nombre, Apellido, Edad, esSoltero) VALUES (1, 'Juan', 'Pérez', 25, true), (2, 'María', 'Gómez', 30, false), (1, 'Pedro', 'López', 28, true) [23505-214]
+[2023-05-21 16:14:39] [ DEBUG] [Cliente:45] Informacion actualizada para el empleado con ID 2
+[2023-05-21 16:14:39] [ INFO ] [Cliente:58] Empleado eliminado con ID 1
+[2023-05-21 16:14:39] [ INFO ] [Cliente:71] Empleado eliminado por edad
