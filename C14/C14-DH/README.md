@@ -4,7 +4,7 @@
 
 ## Pasos
 
-1. Creamos la clase estudiante. 📂entities
+1. Creamos la clase Estudiante. 📂entities
 2. Creamos la interface IDao. 📂 dao
 3. Creamos la clase EstudianteService. 📂services
 4. Creamos la clase BaseDeDatos. 📂dao
