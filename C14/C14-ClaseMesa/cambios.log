@@ -1,0 +1,12 @@
+[2023-05-23 20:59:26] [ INFO ] [BaseDeDatos:24] Se ha creado con éxito la tabla
+[2023-05-23 20:59:26] [ INFO ] [MedicamentoDaoH2:20] Inicio de Operatoria de Guardado de un medicamento
+[2023-05-23 20:59:45] [ INFO ] [BaseDeDatos:24] Se ha creado con exito la tabla
+[2023-05-23 20:59:45] [ INFO ] [MedicamentoDaoH2:20] Inicio de Operatoria de Guardado de un medicamento
+[2023-05-23 21:00:04] [ INFO ] [BaseDeDatos:24] Se ha creado con exito la tabla
+[2023-05-23 21:00:04] [ INFO ] [MedicamentoDaoH2:20] Inicio de Operatoria de Guardado de un medicamento
+[2023-05-23 23:52:32] [ INFO ] [BaseDeDatos:25] Se ha creado con exito la tabla
+[2023-05-23 23:52:32] [ INFO ] [MedicamentoDaoH2:24] Inicio de Operatoria de Guardado de un medicamento
+[2023-05-23 23:52:32] [ INFO ] [MedicamentoDaoH2:24] Inicio de Operatoria de Guardado de un medicamento
+[2023-05-23 23:52:32] [ INFO ] [MedicamentoDaoH2:24] Inicio de Operatoria de Guardado de un medicamento
+[2023-05-23 23:52:32] [ INFO ] [MedicamentoDaoH2:61] Inicio de búsqueda de un medicamento por Id
+[2023-05-23 23:52:32] [ INFO ] [MedicamentoDaoH2:72] El resultado de la busqueda es: Bayaspirina
