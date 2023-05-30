@@ -9,6 +9,8 @@ import java.util.List;
 
 public class Cliente {
     public static void main(String[] args) {
+
+        //1 - ESCRITURA DE LA LISTA - GUARDAR
         //listado de perros
         List<Perro> canes = new ArrayList<>();
         canes.add(new Perro(9, "Sasha"));
@@ -18,7 +20,8 @@ public class Cliente {
         canes.add(new Perro(15, "Mochi"));
         canes.add(new Perro(11, "Lula"));
         canes.add(new Perro(10, "Galo"));
-        //enviar la lista a un archivo
+        //enviar la lista a un archivo para despues recuperarlo
+        //geralmente aquello que trabaja con un recurso externo genera excepcion (puede que no haya acceso, este caido)
         FileOutputStream fos;
         try {
             fos = new FileOutputStream("lista.txt");
@@ -29,6 +32,8 @@ public class Cliente {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+        //2 - RECUPERACION DE LA LISTA
         //recuperamos la lista desde el archivo
         List<Perro> canesRecuperados = null;
         FileInputStream fis;
@@ -36,6 +41,8 @@ public class Cliente {
             //flujo de entrada
             fis = new FileInputStream("lista.txt");
             ObjectInputStream ois = new ObjectInputStream(fis);
+            //CASTEO ---> (ArrayList) ois.readObject();
+            //para convertir el objeto leído en un ArrayList de Perro y se asigna a la variable canesRecuperados.
             canesRecuperados = (ArrayList) ois.readObject();
             ois.close();
         } catch (Exception ex) {

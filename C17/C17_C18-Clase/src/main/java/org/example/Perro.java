@@ -2,6 +2,7 @@ package org.example;
 
 import java.io.Serializable;
 
+//implements Serializable
 public class Perro implements Serializable {
     private Integer edad;
     private String nombre;
