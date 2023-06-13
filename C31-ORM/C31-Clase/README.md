@@ -10,4 +10,4 @@ Dada la siguiente clase y tabla debemos:
 ![Preview](https://github.com/soymilidev/JAVA-II/blob/main/C31-ORM/C31-Clase/Tabla.png)
 
 ## Resolución
-![Preview](https://github.com/soymilidev/JAVA-II/blob/main/C31-ORM/C31-Clase/preview.png)
+![Preview](https://github.com/soymilidev/JAVA-II/blob/main/C31-ORM/C31-Clase/preview.jpg)
