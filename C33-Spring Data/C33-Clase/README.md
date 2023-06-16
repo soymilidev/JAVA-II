@@ -18,4 +18,4 @@ Crear un **proyecto profesor** que contenga dos entidades:
 
 ¡Manos a la obra!
 
-
+![Preview](https://github.com/soymilidev/JAVA-II/blob/main/C33-Spring%20Data/C33-Clase/preview.png)
